@@ -3,55 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cybersecurity portfolio of Surya Abhiram - SOC, Web Application Security, VAPT and Security Engineering.">
     <title>Surya Abhiram | Cybersecurity Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <nav class="navbar">
     <div class="nav-container">
-        <h1 class="logo">Surya</h1>
-        <a href="https://github.com/Suryaaa2004" target="_blank" class="github-btn">GitHub 🔗</a>
+        <a href="#" class="logo">Security Portfolio</a>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <a href="https://github.com/Suryaaa2004" target="_blank" rel="noopener noreferrer" class="github-btn">
+            GitHub ↗
+        </a>
     </div>
 </nav>
 
 <section class="hero">
     <div class="hero-content">
+        <p class="hero-label">CYBERSECURITY PORTFOLIO</p>
+
         <h1>Surya Abhiram</h1>
-        <p class="tagline">Cybersecurity Analyst | SOC | AppSec</p>
-        <p class="subtitle">Building secure systems and hunting vulnerabilities</p>
+
+        <p class="tagline">Cybersecurity Analyst | Web & API Security | SOC</p>
+
+        <p class="subtitle">
+            Helping organizations identify and understand security risks through
+            authorized security testing and practical remediation guidance.
+        </p>
+
         <div class="cta-buttons">
-            <a href="https://github.com/Suryaaa2004" target="_blank" class="btn btn-primary">View My Work →</a>
-            <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+            <a href="#services" class="btn btn-primary">Security Services →</a>
+            <a href="#projects" class="btn btn-secondary">Explore My Work</a>
         </div>
     </div>
 </section>
 
-<section class="about">
+<section class="about" id="about">
     <h2>About Me</h2>
+
     <div class="about-content">
         <p>
-            Cybersecurity enthusiast with hands-on experience in SOC monitoring, penetration testing, and building secure systems. 
-            I specialize in vulnerability assessment, intrusion detection, and security engineering.
+            Cybersecurity professional with hands-on experience in SOC monitoring,
+            vulnerability assessment, penetration testing, and application security.
+            I enjoy understanding how systems work, identifying security weaknesses,
+            and helping teams improve their security posture through practical and
+            actionable recommendations.
         </p>
+
         <div class="highlights">
-            <div class="highlight-item">🔍 Real-time threat monitoring</div>
-            <div class="highlight-item">🔐 Security architecture design</div>
-            <div class="highlight-item">🧪 Penetration testing</div>
-            <div class="highlight-item">🛡️ Vulnerability assessment</div>
+            <div class="highlight-item">🔍 SOC Monitoring & Alert Analysis</div>
+            <div class="highlight-item">🔐 Web & Application Security</div>
+            <div class="highlight-item">🧪 Penetration Testing & VAPT</div>
+            <div class="highlight-item">🛡️ Vulnerability Assessment</div>
         </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <h2>Security Testing Services</h2>
+
+    <p class="section-intro">
+        I provide independent security assessments for web applications and APIs.
+        All testing is performed only with explicit authorization and a clearly
+        defined scope.
+    </p>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <div class="service-icon">🌐</div>
+            <h3>Web Application Security Testing</h3>
+            <p>
+                Assessment of web applications for common security risks involving
+                authentication, authorization, input validation, session management,
+                and other relevant attack surfaces.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🔌</div>
+            <h3>API Security Testing</h3>
+            <p>
+                Security testing of APIs to identify potential weaknesses involving
+                authentication, authorization, access controls, input validation,
+                and data exposure.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">📋</div>
+            <h3>Vulnerability Assessment</h3>
+            <p>
+                Identification and validation of potential security weaknesses with
+                clear severity ratings and practical remediation recommendations.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🔄</div>
+            <h3>Retesting & Validation</h3>
+            <p>
+                Optional verification of remediation efforts to help confirm whether
+                identified vulnerabilities have been successfully addressed.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="methodology">
+    <h2>Security Testing Approach</h2>
+
+    <p class="section-intro">
+        A structured and transparent approach helps ensure security testing remains
+        focused, authorized, and useful for development teams.
+    </p>
+
+    <div class="methodology-grid">
+
+        <div class="method-step">
+            <span>01</span>
+            <h3>Scope & Authorization</h3>
+            <p>
+                Define authorized targets, testing boundaries, timelines, and rules
+                of engagement before any testing begins.
+            </p>
+        </div>
+
+        <div class="method-step">
+            <span>02</span>
+            <h3>Security Assessment</h3>
+            <p>
+                Perform structured security testing based on the agreed scope and
+                relevant security testing practices.
+            </p>
+        </div>
+
+        <div class="method-step">
+            <span>03</span>
+            <h3>Validate Findings</h3>
+            <p>
+                Verify potential vulnerabilities and document evidence while
+                minimizing unnecessary impact on the application.
+            </p>
+        </div>
+
+        <div class="method-step">
+            <span>04</span>
+            <h3>Report & Remediation</h3>
+            <p>
+                Provide clear findings, risk ratings, business impact, and actionable
+                remediation recommendations.
+            </p>
+        </div>
+
     </div>
 </section>
 
 <section class="projects" id="projects">
     <h2>Featured Projects</h2>
+
     <div class="projects-grid">
+
         <div class="project-card">
             <div class="project-header">
                 <h3>🛡️ WiFi IDS/IPS</h3>
-                <a href="https://github.com/Suryaaa2004/WIFI_IDS" target="_blank" class="project-link">View →</a>
+                <a href="https://github.com/Suryaaa2004/WIFI_IDS"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-link">View ↗</a>
             </div>
-            <p class="project-description">Advanced intrusion detection system with ML-based anomaly detection, real-time packet analysis, and Telegram alerts.</p>
+
+            <p class="project-description">
+                Advanced intrusion detection system with anomaly detection,
+                real-time packet analysis, rogue access point detection,
+                and alerting capabilities.
+            </p>
+
             <div class="project-tags">
                 <span>Python</span>
                 <span>Scapy</span>
@@ -62,12 +200,21 @@
         <div class="project-card">
             <div class="project-header">
                 <h3>🔐 SecureShare Pro</h3>
-                <a href="https://github.com/Suryaaa2004/SECURE-SHARE" target="_blank" class="project-link">View →</a>
+                <a href="https://github.com/Suryaaa2004/SECURE-SHARE"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-link">View ↗</a>
             </div>
-            <p class="project-description">Zero-trust file sharing system with AES encryption, token-based links, expiry, brute-force protection, and one-time download.</p>
+
+            <p class="project-description">
+                Secure file-sharing application featuring encryption,
+                token-based links, expiry controls, brute-force protection,
+                and one-time downloads.
+            </p>
+
             <div class="project-tags">
                 <span>Flask</span>
-                <span>AES Encryption</span>
+                <span>Encryption</span>
                 <span>Security Engineering</span>
             </div>
         </div>
@@ -75,9 +222,18 @@
         <div class="project-card">
             <div class="project-header">
                 <h3>🧠 Cyber Health Checker</h3>
-                <a href="https://github.com/Suryaaa2004/Cyber_Health_Checker" target="_blank" class="project-link">View →</a>
+                <a href="https://github.com/Suryaaa2004/Cyber_Health_Checker"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-link">View ↗</a>
             </div>
-            <p class="project-description">Automated tool to scan systems for vulnerabilities, open ports, and misconfigurations with detailed reports.</p>
+
+            <p class="project-description">
+                Security assessment tool designed to identify open ports,
+                configuration weaknesses, and common security risks while
+                generating detailed reports.
+            </p>
+
             <div class="project-tags">
                 <span>Python</span>
                 <span>Security Analysis</span>
@@ -88,22 +244,40 @@
         <div class="project-card">
             <div class="project-header">
                 <h3>🔍 MCP Scanner</h3>
-                <a href="https://github.com/Suryaaa2004/MCP-SCANNER" target="_blank" class="project-link">View →</a>
+                <a href="https://github.com/Suryaaa2004/MCP-SCANNER"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-link">View ↗</a>
             </div>
-            <p class="project-description">Security scanner for MCP servers detecting injection vulnerabilities, regex issues, and configuration risks with automated reporting.</p>
+
+            <p class="project-description">
+                Security scanner for MCP servers designed to identify
+                configuration risks and security issues while generating
+                structured assessment reports.
+            </p>
+
             <div class="project-tags">
                 <span>Python</span>
                 <span>Security Scanning</span>
-                <span>MCP Protocol</span>
+                <span>MCP</span>
             </div>
         </div>
 
         <div class="project-card">
             <div class="project-header">
-                <h3>🦠 Malware Triage & Threat Intel Dashboard</h3>
-                <a href="https://github.com/Suryaaa2004/yara-malware-triage-dashboard" target="_blank" class="project-link">View →</a>
+                <h3>🦠 Malware Triage Dashboard</h3>
+                <a href="https://github.com/Suryaaa2004/yara-malware-triage-dashboard"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-link">View ↗</a>
             </div>
-            <p class="project-description">Web-based malware triage platform with YARA rule detection, IOC extraction, MITRE ATT&CK mapping, VirusTotal enrichment, and automated PDF/CSV/JSON reporting.</p>
+
+            <p class="project-description">
+                Web-based malware triage platform featuring YARA-based detection,
+                IOC extraction, threat intelligence enrichment, MITRE ATT&CK
+                mapping, and automated reporting.
+            </p>
+
             <div class="project-tags">
                 <span>Python</span>
                 <span>Flask</span>
@@ -111,71 +285,188 @@
                 <span>MITRE ATT&CK</span>
             </div>
         </div>
+
+    </div>
+</section>
+
+<section class="case-studies">
+    <h2>Security Assessment Approach</h2>
+
+    <div class="case-study-card">
+        <p class="case-label">SECURITY ASSESSMENT</p>
+
+        <h3>Authorized Web Application Security Testing</h3>
+
+        <p>
+            I use a structured approach to assess authorized web applications
+            for security weaknesses, validate findings, and provide practical
+            remediation guidance.
+        </p>
+
+        <div class="case-study-details">
+
+            <div>
+                <strong>Focus Areas</strong>
+                <p>
+                    Authentication, authorization, access controls, input
+                    validation, session management, and API security.
+                </p>
+            </div>
+
+            <div>
+                <strong>Deliverables</strong>
+                <p>
+                    Validated findings, risk assessment, supporting evidence,
+                    and practical remediation recommendations.
+                </p>
+            </div>
+
+            <div>
+                <strong>Approach</strong>
+                <p>
+                    Structured testing aligned with relevant web application
+                    security testing practices and the agreed engagement scope.
+                </p>
+            </div>
+
+        </div>
+
+        <p class="disclaimer">
+            All security testing is performed only on systems where explicit
+            authorization has been provided. Confidential client information is
+            never disclosed publicly.
+        </p>
     </div>
 </section>
 
 <section class="skills-section">
     <h2>Technical Skills</h2>
+
     <div class="skills-grid">
+
         <div class="skill-category">
-            <h4>Languages</h4>
+            <h4>Programming</h4>
             <div class="skills-list">Python, Bash, SQL</div>
         </div>
+
         <div class="skill-category">
-            <h4>Security</h4>
-            <div class="skills-list">OWASP, VAPT, SIEM, Penetration Testing</div>
+            <h4>Application Security</h4>
+            <div class="skills-list">
+                OWASP, Web Security, API Security, VAPT, Penetration Testing
+            </div>
         </div>
+
         <div class="skill-category">
-            <h4>Tools & Frameworks</h4>
-            <div class="skills-list">Scapy, Flask, Wireshark, Linux</div>
+            <h4>Security Tools</h4>
+            <div class="skills-list">
+                Burp Suite, Nmap, Wireshark, Linux, Scapy
+            </div>
         </div>
+
         <div class="skill-category">
-            <h4>Specializations</h4>
-            <div class="skills-list">SOC Monitoring, Network Security, Encryption</div>
+            <h4>Security Operations</h4>
+            <div class="skills-list">
+                SOC Monitoring, SIEM Concepts, Incident Analysis,
+                Threat Detection
+            </div>
         </div>
+
     </div>
 </section>
 
-<section class="experience">
-    <h2>Experience</h2>
+<section class="experience" id="experience">
+    <h2>Security Experience</h2>
+
     <div class="experience-item">
+
         <div class="exp-header">
-            <h3>SOC Analyst Intern</h3>
-            <span class="company">Cybersophy</span>
+            <div>
+                <h3>SOC Analyst Intern</h3>
+                <span class="company">Cybersophy</span>
+            </div>
         </div>
+
         <ul class="exp-details">
-            <li>Real-time security alert monitoring and analysis</li>
-            <li>Penetration testing on healthcare and enterprise applications</li>
-            <li>Assessed 6+ web domains for vulnerabilities</li>
-            <li>Worked with SIEM concepts and incident analysis</li>
+            <li>Monitored and analyzed security events and alerts as part of SOC operations.</li>
+            <li>Performed authorized security assessments on web and application environments.</li>
+            <li>Conducted vulnerability identification and validation activities.</li>
+            <li>Assessed multiple web domains and applications for potential security weaknesses.</li>
+            <li>Documented security findings and supported remediation through clear reporting.</li>
+            <li>Worked with SIEM concepts, incident analysis, and security monitoring workflows.</li>
         </ul>
+
     </div>
 </section>
 
 <section class="education">
-    <h2>Education</h2>
+    <h2>Education & Certifications</h2>
+
     <div class="edu-timeline">
+
         <div class="edu-item">
             <h4>B.Tech in Computer Science</h4>
             <p>KL University • Cybersecurity Focus</p>
         </div>
+
         <div class="edu-item">
-            <h4>Intermediate (12th Grade)</h4>
-            <p>Narayana Junior College</p>
+            <h4>Certified Ethical Hacker (CEH)</h4>
+            <p>EC-Council Certification</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Let's Talk Security</h2>
+
+    <div class="contact-content">
+        <p>
+            Interested in discussing an authorized security assessment,
+            cybersecurity opportunity, or collaboration? Feel free to reach out.
+        </p>
+
+        <div class="contact-buttons">
+            <!-- REPLACE WITH YOUR ACTUAL EMAIL -->
+            <a href="mailto:suryaabhiram14@gmail.com" class="btn btn-primary">
+                Email Me
+            </a>
+
+            <!-- REPLACE WITH YOUR ACTUAL LINKEDIN PROFILE -->
+            <a href="https://www.linkedin.com/in/surya-abhiram-36693a258/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-secondary">
+                LinkedIn
+            </a>
         </div>
     </div>
 </section>
 
 <footer>
     <div class="footer-content">
-        <p>⚡ Built with passion for cybersecurity</p>
+        <p>⚡ Building and securing technology with curiosity.</p>
+
         <div class="footer-links">
-            <a href="https://github.com/Suryaaa2004" target="_blank">GitHub</a>
-            <a href="mailto:your@email.com">Email</a>
+            <a href="https://github.com/Suryaaa2004"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <!-- REPLACE WITH YOUR ACTUAL EMAIL -->
+            <a href="mailto:suryaabhiram14@gmail.com">
+                Email
+            </a>
         </div>
+
+        <p class="footer-note">
+            © 2026 Surya Abhiram. All security testing is performed with authorization.
+        </p>
     </div>
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
+```
