@@ -46,19 +46,6 @@ animatedElements.forEach(element => {
 
     observer.observe(element);
 });
-
-// Apply the visible animation
-const style = document.createElement("style");
-
-style.textContent = `
-    .visible {
-        opacity: 1 !important;
-        transform: translateY(0) !important;
-    }
-`;
-
-document.head.appendChild(style);
-
 // Add shadow to navbar while scrolling
 const navbar = document.querySelector(".navbar");
 
